@@ -53,6 +53,15 @@
 </section>
 
 </div>
-
+	
+<script>
+    window.addEventListener("load", () => {
+        setTimeout(() => {
+            document.getElementById("intro-screen").classList.add("fade-out");
+            document.getElementById("main-content").classList.add("show");
+        }, 3000); // 3 seconds
+    });
+</script>
+	
 </body>
 </html>
