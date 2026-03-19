@@ -28,7 +28,7 @@ html{
         #eef2f7
     );
 
-    background-size:400% 400%
+    background-size:400% 400%;
         
     display:flex;
     justify-content:center;
@@ -78,7 +78,7 @@ html{
     margin-bottom:10px;
     opacity:0;
     animation:fadeInText 1.5s ease forwards;
-    animatin-delay:0.5s;
+    animation-delay:0.5s;
 }
 
 /*Title*/
@@ -91,7 +91,7 @@ html{
 }
 
 /*-------------------ANIMATIONS-------------------*/
-@Keyframes cardLift{
+@keyframes cardLift{
     0%{
         transform:translateY(40px);
         opacity:0;
@@ -103,7 +103,7 @@ html{
     }
 }
 
-@Keyframes fadeInText{
+@keyframes fadeInText{
             to{
                 opacity:1;
         }
