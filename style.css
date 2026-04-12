@@ -208,3 +208,30 @@ footer{
     background: #357ac9;
     transform: translateY(-3px);
 }
+
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center; /* centers headings + paragraphs */
+}
+
+section ul {
+    text-align: left;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 25px 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+}
